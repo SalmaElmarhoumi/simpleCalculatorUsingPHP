@@ -23,9 +23,9 @@ if (isset($_GET['submit'])){
 
     //calculation
     $result = calc($x, $y, $operation);
-    header("location: calculate.php?result=$result");
+    header("Location: calculate.php?result=$result");
 
 } else {
-    header("location: calculate.php");
+    header("Location: calculate.php");
 }
 ?>
